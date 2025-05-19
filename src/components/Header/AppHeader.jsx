@@ -21,11 +21,6 @@ const AppHeader = () => {
           </Tooltip>
         </Col>
 
-        {/* Центр */}
-        <Col>
-          <div className={styles.logo}>STORE</div>
-        </Col>
-
         {/* Правая часть */}
         <Col>
           <Space size="middle">

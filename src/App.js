@@ -1,15 +1,8 @@
 import 'antd/dist/reset.css';
-import { Layout } from 'antd';
-import Header from './components/Header';
-
-const { Content } = Layout;
+import MainLayout from './components/Layout/MainLayout';
 
 function App() {
-  return (
-    <Layout>
-      <Header />
-      <Content>{/* Контент */}</Content>
-    </Layout>
-  );
+  return <MainLayout />;
 }
+
 export default App;
