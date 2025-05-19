@@ -1,6 +1,8 @@
+import 'antd/dist/reset.css';
+import MainLayout from './components/Layout/MainLayout';
+
 function App() {
-  return (
-    <div>Store</div>
-  );
+  return <MainLayout />;
 }
+
 export default App;

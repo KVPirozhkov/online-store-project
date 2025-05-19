@@ -1,0 +1,27 @@
+.hero {
+  background: url('https://gendalf.ru/upload/iblock/7dc/idsdv4m8m7i6fwo6wb3bv056vxmho1rv/tsena-razrabotki-desktop-kopiya.jpg')
+    center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
